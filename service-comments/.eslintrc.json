@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-var": "error",
+        "no-unused-vars": "warn",
+        "prefer-const": "error"
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 12,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    }
+}
